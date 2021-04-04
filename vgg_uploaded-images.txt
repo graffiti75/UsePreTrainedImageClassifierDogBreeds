@@ -1,0 +1,31 @@
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = vgg 
+ dogfile = dognames.txt
+
+Prints 10 filenames from folder pet_images/
+ 1 file:                cat_01.jpg
+ 2 file:          Poodle_07927.jpg
+ 3 file:                cat_02.jpg
+ 4 file:      Great_dane_05320.jpg
+ 5 file:       Dalmatian_04068.jpg
+ 6 file:              gecko_02.jpg
+ 7 file:                cat_07.jpg
+ 8 file:  Great_pyrenees_05435.jpg
+ 9 file: German_shepherd_dog_04931.jpg
+10 file: German_shepherd_dog_04890.jpg
+
+Empty Dictionary results_dic - n items= 0
+
+Pet Image Label Dictionary has 40 key-value pairs.
+Below are 10 of them:
+ 1 key:                     cat_01.jpg  label:                          c
+ 2 key:               Poodle_07927.jpg  label:                          p
+ 3 key:                     cat_02.jpg  label:                          c
+ 4 key:           Great_dane_05320.jpg  label:                          g
+ 5 key:            Dalmatian_04068.jpg  label:                          d
+ 6 key:                   gecko_02.jpg  label:                          g
+ 7 key:                     cat_07.jpg  label:                          c
+ 8 key:       Great_pyrenees_05435.jpg  label:                          g
+ 9 key:  German_shepherd_dog_04931.jpg  label:                          g
+10 key:  German_shepherd_dog_04890.jpg  label:                          g
