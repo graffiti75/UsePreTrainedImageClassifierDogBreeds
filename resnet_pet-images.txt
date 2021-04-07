@@ -324,7 +324,7 @@ PetLabelDog: 1  ClassLabelDog: 1
 
  ** Statistics from calculates_results_stats() function:
 N Images: 40  N Dog Images: 30  N NotDog Images: 10 
-Pct Corr dog: 100.0 Pct Corr NOTdog:  60.0  Pct Corr Breed:  90.0
+Pct Corr dog: 100.0 Pct Corr NOTdog:  90.0  Pct Corr Breed:  90.0
 
  ** Check Statistics - calculated from this function as a check:
 N Images: 40  N Dog Images: 30  N NotDog Images: 10 
@@ -339,7 +339,7 @@ N Not-Dog Images    :  10
 pct_match           : 82.500000
 pct_correct_dogs    : 100.000000
 pct_correct_breed   : 90.000000
-pct_correct_notdogs : 60.000000
+pct_correct_notdogs : 90.000000
 
 INCORRECT Dog/NOT Dog Assignments:
 Real:                        cat Classifier:   norwegian elkhound, elkhound

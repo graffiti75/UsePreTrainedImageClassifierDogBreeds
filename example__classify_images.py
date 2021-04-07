@@ -74,7 +74,12 @@ def classify_images(images_dir, results_dic, model):
     # print("\t-----images_dir={}".format(images_dir))
     # print("\t-----model={}".format(model))
 
-    filename_list = listdir("pet_images/")
+    first_filename_list = listdir("pet_images/")
+    filename_list = []
+    for idx in range(0, len(first_filename_list), 1):
+        if not first_filename_list[idx].startswith('.'):
+            filename_list.append(first_filename_list[idx])
+
     idx = 0
     for key in results_dic:
         # print("---------------")
@@ -131,7 +136,12 @@ def print_dict(dict):
 
 def main():
     in_arg = get_input_args()
-    filename_list = listdir("pet_images/")
+    first_filename_list = listdir("pet_images/")
+    filename_list = []
+    for idx in range(0, len(first_filename_list), 1):
+        if not first_filename_list[idx].startswith('.'):
+            filename_list.append(first_filename_list[idx])
+
     results_dic = dict()
     for idx in range(0, len(filename_list), 1):
         if filename_list[idx] not in results_dic:
